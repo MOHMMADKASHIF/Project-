@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    background-color: rgba(15, 8, 8, 0.8);
+    color: cyan;
+    padding: 10px 20px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+a,
+button {
+    color: rgb(146, 140, 140);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(42, 6, 6, 0.8)
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Main section styles */
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(15, 8, 8, 0.8);
+    color: black;
+    background-image: url(https://media.getmyuni.com/azure/college-image/big/integral-university-iu-lucknow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    font-weight: bolder;
+
+}
+
+.container-1 h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+span {
+    margin-top: 30px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: cyan;
+}
+
+.container-4 h5 {
+    margin: 20px;
+}
+
+.container-4 h2 {
+    margin: 20px;
+}
+
+.container-4 p {
+    margin: 20px;
+}
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    background-color: rgba(15, 8, 8, 0.8);
+    color: cyan;
+    padding: 10px 20px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+a,button {
+    color: rgb(146, 140, 140);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(42, 6, 6, 0.8)
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Main section styles */
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(15, 8, 8, 0.8);
+    color: black;
+    background-image: url(https://media.getmyuni.com/azure/college-image/big/integral-university-iu-lucknow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    font-weight: bolder;
+
+}
+
+.container-1 h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+span {
+    margin-top: 30px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: cyan;
+}
+
+.container-4 h5 {
+    margin: 20px;
+}
+
+.container-4 h2 {
+    margin: 20px;
+}
+
+.container-4 p {
+    margin: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 120px;
+    padding: 20px 20px;
+} 
+
+
+.grid-item-1{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;  
+    width: 400px; 
+    height: 200px;
+    border-radius: 10px;
+    transition: width 0.3s ease, height 0.5s ease;
+}
+.grid-item-1:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 450px;
+    cursor: pointer;
+}   
+
+.grid-item-2{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    background-color: white;   
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    transition: width 0.3s ease, height 0.5s ease;
+}
+
+.grid-item-2:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 450px;
+    cursor: pointer;
+}   
+
+.grid-item-3{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;   
+    width: 400px; 
+    height: 200px;
+    border-radius: 10px;
+    transition: width 0.3s ease, height 0.5s ease;
+}
+
+.grid-item-3:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 450px;
+    cursor: pointer;
+}   
+
+.grid-item-4{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;   
+    width: 400px; 
+    height: 200px;  
+    border-radius: 10px;
+    transition: width 0.3s ease, height 0.5s ease;
+}
+
+.grid-item-4:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 450px;
+    cursor: pointer;
+}   
+
+.container-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-5>h4{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.container-5>h3{
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+
+.container-5>p{
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+
+
+.container-6{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    border: 2px solid cyan;
+    height: 100%;
+    width: 300px;
+    border-top-right-radius: 20px;
+    background-color: cyan;
+    transition: width 1.3s ease, height 1.5s ease;
+}
+.container-6:hover{
+    background-color: rgba(43, 8, 8, 0.3);
+    height: 100%;
+    width: 500px;
+}
+
+.container-6 > h4{
+    text-align: center;
+   
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.container-6 > p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.container-6 > button{
+    border: 2px solid black;
+    margin-left: 60px;
+}   
+
+
+.container-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-7 > h3{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.container-7 > p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.container-7>button{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    transition: all ease-in-out 2.5s;
+    border-radius: 20px;    
+}
+
+.container-7 button:hover{
+    background-color: rgba(11, 3, 3, 0.915);
+    color: white;
+    
+}
+
+
+
+
+
+.container-9, .container-8{
+    display: grid;
+    padding: 20px;
+    background-color: rgba(11, 3, 3, 0.915);
+    color: white;
+    font-size: 1.2rem;
+}
+.container-9{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.container-9>h2{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.container-9>p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.container-9 .question{
+    border: 2px solid cyan;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container-9 .answer{
+    padding: 20px;
+}
+
+
+.container-8>p{
+    margin-top: 20px;
+}
+.container-8>a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
